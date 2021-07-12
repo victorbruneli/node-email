@@ -29,6 +29,13 @@ async function run() {
       "teste45@exemplo.com.br",
       "teste46@exemplo.com.br",
     ],
+    html: `
+    <html>
+    <body>
+      <strong> Conteudo HTML </strong></br>Do E-mail
+    </body>
+    </html>
+    `,
   });
 
   console.log(mailSent);
